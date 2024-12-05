@@ -10,3 +10,6 @@ sueldo = float(input("Ingrese el sueldo de la persona: "))
 mensajeFinal = "Nombre:%s\nEdad:%d\nSueldo:%.2f\n" % (nombre,edad, sueldo)
 
 print(mensajeFinal)
+
+mensajeFinal2 = f"Nombre:{nombre}\nEdad:{edad}\nSueldo:{sueldo}\n"
+print(mensajeFinal)
